@@ -1,0 +1,40 @@
+
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+    <title>About us</title>
+</head>
+<body>
+   
+    <div class="heading">
+        <h1> About-Us</h1>
+        <p>Name: Sandip P Jadav</p><br>
+        <p>Email : jadavsandip2702@gmail.com</p><br>
+        <p>Address: Valsad (396065)</p><br>
+
+        <section class="about-us">
+            <img src="{% static 'images/sandip.jpeg' %}" width="300%" height="100%">
+            <div class="content">
+                <h2>Software  Developer</h2>
+                <p> I am looking for  a software Development to build and impliment
+                   Web application in django framework.
+                   also i am work on python,c++,dbsqlite and HTML/CSS.
+                   if you contact me for  our website feedback or suggestion click the contact me Button.</p>
+                   <a class="read-more-btn" href="/contact/">Contact Me</a><br><br>
+                   <a href="/main/">Go to Home page</a><br>
+                
+            </div>
+        </section>
+
+
+    </div>
+    
+</body>
+</html>
